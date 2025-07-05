@@ -1,0 +1,19 @@
+{
+  "name": "aws-cross-account-iam",
+  "version": "1.0.0",
+  "description": "Validate and generate cross-account IAM policies (CLI)",
+  "main": "index.js",
+  "bin": {
+    "aws-cross-account-iam": "index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "pbac": "^0.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
